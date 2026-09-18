@@ -1403,11 +1403,14 @@ const PARTNERS: {
   initials: string;
 }[] = [
   // ── Insurance ──────────────────────────────────────
-  { name: "Bajaj Allianz",       category: "Insurance",   logoUrl: null, accent: "#E63946", initials: "BA" },
-  { name: "HDFC ERGO",           category: "Insurance",   logoUrl: null, accent: "#004C97", initials: "HE" },
-  { name: "ICICI Lombard",       category: "Insurance",   logoUrl: null, accent: "#F47920", initials: "IL" },
-  { name: "New India Assurance", category: "Insurance",   logoUrl: null, accent: "#1B6CA8", initials: "NI" },
-  { name: "Reliance General",    category: "Insurance",   logoUrl: null, accent: "#0062A8", initials: "RG" },
+   { name: "Croma",              category: "Insurance", logoUrl: "/partner-logos/croma.png",              accent: "#333333", initials: "CR" },
+  { name: "Assurant",           category: "Insurance", logoUrl: "/partner-logos/assurant.png",           accent: "#333333", initials: "AS" },
+  { name: "OneAssist",          category: "Insurance", logoUrl: "/partner-logos/oneassist.png",          accent: "#333333", initials: "OA" },
+  { name: "Onsitego",           category: "Insurance", logoUrl: "/partner-logos/onsitego.png",           accent: "#333333", initials: "OG" },
+  { name: "Bajaj Allianz",      category: "Insurance", logoUrl: "/partner-logos/bajaj-allianz.png",      accent: "#333333", initials: "BA" },
+  { name: "ICICI Lombard",      category: "Insurance", logoUrl: "/partner-logos/icici-lombard.png",      accent: "#333333", initials: "IL" },
+  { name: "IDFC FIRST Bank",    category: "Insurance", logoUrl: "/partner-logos/idfc-first-bank.png",    accent: "#333333", initials: "ID" },
+  { name: "Reliance General",   category: "Insurance", logoUrl: "/partner-logos/reliance-general.png",   accent: "#333333", initials: "RG" },
   // ── Service Centers ────────────────────────────────
   { name: "Apple Authorized",    category: "Service",     logoUrl: null, accent: "#555555", initials: "A"  },
   { name: "Samsung Care",        category: "Service",     logoUrl: null, accent: "#1428A0", initials: "SC" },
